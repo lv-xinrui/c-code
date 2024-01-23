@@ -1,22 +1,23 @@
 //
 //  main.c
-//  打印1～100间奇数
+//  排序
 //
-//  Created by 我爱吃糖 on 2024/1/22.
+//  Created by 我爱吃糖 on 2024/1/23.
 //
 
 #include <stdio.h>
 
 int main()
 {
-    int i=1;
-    for (i=1; i<=100; i++)
+    int a[3]={};
+    int i;
+    for (i=0; i<3; i++)
     {
-        if (i%2==1)
-        {
-            printf("%d  ",i);
-        }
+        scanf("%d",&a[i]);
+    }
+    for (i=0; i<3; i++)
+    {
+        printf("%d ",a[i]);
     }
     return 0;
 }
-
